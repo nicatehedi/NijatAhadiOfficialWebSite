@@ -1,0 +1,117 @@
+body {
+    background-color: gray;
+}
+
+
+p {         font-family: 'Righteous', cursive;
+            padding: 24px 30px;
+            margin-right: 5px;
+            border: ;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            background-color: lightgray;
+            color: black;
+            border-radius: 100px;
+            position: absolute;
+            top: 40%;
+            left: 500px;
+    
+    
+}
+
+
+
+div { width: 50%;
+      margin: 0 auto;
+      border: 1px solid black;
+    border-width: 1px;
+}
+
+
+/** Button **/
+ .btn {
+            padding: 12px 30px;
+            margin-right: 5px;
+            border: none;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+
+/** Primary Outline **/
+
+        .primary-outline {
+            background-color: white;
+            color: #007bff;
+            border: 2px solid #007bff;
+        }
+
+
+        .primary-outline:hover {
+            opacity: 0.7;
+            background-color: #007bff;
+            color: white;
+        }
+
+
+        /** Secondary Outline **/
+
+        .secondary-outline {
+            background-color: white;
+            color: dimgray;
+            border: 2px solid gray;
+        }
+
+
+        .secondary-outline:hover {
+            opacity: 0.7;
+            background-color: gray;
+            color: white;
+        }
+
+        /** Success Outline **/
+
+        .success-outline {
+            background-color: white;
+            color: green;
+            border: 2px solid green;
+        }
+
+
+        .success-outline:hover {
+            opacity: 0.7;
+            background-color: green;
+            color: white;
+        }
+
+        /** Warning Outline **/
+
+        .warning-outline {
+            background-color: white;
+            color: orange;
+            border: 2px solid orange;
+        }
+
+
+        .warning-outline:hover {
+            opacity: 0.7;
+            background-color: orange;
+            color: white;
+        }
+
+        /** Danger Outline **/
+
+        .danger-outline {
+            background-color: white;
+            color: red;
+            border: 2px solid red;
+        }
+
+
+        .danger-outline:hover {
+            opacity: 0.7;
+            background-color: red;
+            color: white;
+        }
